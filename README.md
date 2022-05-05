@@ -20,7 +20,7 @@ With this project, on Front-End, i learned more techniques in React + TypeScript
 
 This project was developed using the following technologies:
 
-# FRONT-END:
+#### FRONT-END:
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org)
 - [TailwindCSS](https://tailwindcss.com)
