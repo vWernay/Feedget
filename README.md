@@ -15,6 +15,7 @@ This project has developed during the NLW Return by [Rocketseat](https://rockets
 With this project, the user can send a Feedback from u app, he can report bugs, send ideas/suggestions and other...
 
 With this project, on Front-End, i learned more techniques in React + TypeScript, the use of TailwindCSS and some concepts of accessibility, using HeadlessUI.
+On back-End, i learned S.O.L.I.D principle, automated tests with Jest and how to persist information in the database with Prisma.
 
 ## 🧪 Technologies
 
@@ -25,6 +26,13 @@ This project was developed using the following technologies:
 - [TypeScript](https://www.typescriptlang.org)
 - [TailwindCSS](https://tailwindcss.com)
 - [HeadlessUI](https://headlessui.dev)
+
+#### BACK-END:
+- [NodeJS](https://nodejs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [ExpressJS](https://expressjs.com)
+- [Prisma ORM](https://www.prisma.io)
+- [Jest](https://jestjs.io)
 
 ## 🔖 Layout
 
