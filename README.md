@@ -1,11 +1,11 @@
 # Feedget
 
-<!--
-# Preview, soon
-<h1 align="center">
-    <img alt="Feedget preview" title="Feedget Preview" src=".github/cover.svg" />
+<!--<h1 align="center">
+    <img alt="Feedget preview step 1" title="Feedget Preview 1" src=".github/preview_1.svg" />
 </h1> 
--->
+<h1 align="center">
+    <img alt="Feedget preview step 2" title="Feedget Preview 2" src=".github/preview_2.svg" />
+</h1>-->
 
 <br>
 
