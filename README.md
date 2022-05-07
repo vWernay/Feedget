@@ -46,7 +46,7 @@ Remembering that you need to have a [Figma](http://figma.com) account to access 
 
 Next updates will focus on the following tasks:
 
-- [ ] Dark and Light using TailwindCSS.
+- [X] Dark and Light using TailwindCSS.
 - [ ] Use a e-mail service on deploy.
 - [ ] Improve HTML/CSS from e-mail.
 

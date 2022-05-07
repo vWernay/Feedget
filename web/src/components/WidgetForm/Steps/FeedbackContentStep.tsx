@@ -43,7 +43,7 @@ export function FeedbackContentStep({
             <header>
                 <button 
                     type="button" 
-                    className="absolute top-5 left-5 text-zinc-400 hover:text-zinc-100"
+                    className="absolute top-5 left-5 text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100"
                     onClick={onFeedbackRestartRequested}
                 >
                     <ArrowLeft weight="bold" className="w-4 h-4" />
@@ -58,7 +58,7 @@ export function FeedbackContentStep({
 
             <form className="my-4 w-full" onSubmit={handleSubmitFeedback} >
                 <textarea
-                    className="min-w-[304px] w-full min-h-[112px] max-h-96 text-sm placeholder-zinc-400 text-zinc-100 border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none resize:none scrollbar scrollbar-thumb-zinc-700 scrollbar-track-transparent"
+                    className="min-w-[304px] w-full min-h-[112px] max-h-96 text-sm placeholder-zinc-500 text-zinc-800 border-zinc-300 dark:placeholder-zinc-400 dark:text-zinc-100 dark:border-zinc-600 bg-transparent rounded-md focus:border-brand-500 focus:ring-brand-500 focus:ring-1 focus:outline-none resize:none scrollbar scrollbar-thumb-zinc-200 dark:scrollbar-thumb-zinc-700 scrollbar-track-transparent"
                     placeholder="Conte com detalhes o que está acontecendo..."
                     onChange={event => setComment(event.target.value)}
                 />
@@ -72,7 +72,7 @@ export function FeedbackContentStep({
                 <button
                     type="submit"
                     disabled={comment.length <= 5 || isSendingFeedback}
-                    className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500"
+                    className="p-2 bg-brand-500 rounded-md border-transparent flex-1 flex justify-center items-center text-sm hover:bg-brand-300 focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-zinc-900 focus:ring-brand-500 transition-colors disabled:opacity-50 disabled:hover:bg-brand-500"
                 >
                     {isSendingFeedback ? <Loading /> : 'Enviar feedback'}
                 </button>
